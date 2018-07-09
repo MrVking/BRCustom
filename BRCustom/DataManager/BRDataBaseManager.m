@@ -47,6 +47,8 @@
         // Check if any error occurred during copying and display it.
         if (error != nil) {
             NSLog(@"%@", [error localizedDescription]);
+        }else{
+            NSLog(@"La base de datos fue copiada en %@",destinationPath);
         }
     }
 }
