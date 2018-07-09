@@ -6,14 +6,42 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F4F6998920F33CE700D8E830 /* BRCustom-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F4F6998A20F33CE700D8E830 /* Build configuration list for PBXAggregateTarget "BRCustom-Universal" */;
+			buildPhases = (
+				F4807E4120F33DF600D43C7B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "BRCustom-Universal";
+			productName = "BRCustom-Universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		F4F6998320F33B7800D8E830 /* BRCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F6998120F33B7800D8E830 /* BRCustom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F699AB20F33FA000D8E830 /* brUsers.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F4F699AA20F33FA000D8E830 /* brUsers.sqlite */; };
+		F4F699B520F33FA800D8E830 /* BRLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F699AD20F33FA800D8E830 /* BRLogin.h */; };
+		F4F699B620F33FA800D8E830 /* BRLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F699AE20F33FA800D8E830 /* BRLogin.m */; };
+		F4F699B720F33FA800D8E830 /* BRRequestOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F699B020F33FA800D8E830 /* BRRequestOperations.h */; };
+		F4F699B820F33FA800D8E830 /* BRRequestOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F699B120F33FA800D8E830 /* BRRequestOperations.m */; };
+		F4F699B920F33FA800D8E830 /* BRSucursales.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F699B320F33FA800D8E830 /* BRSucursales.h */; };
+		F4F699BA20F33FA800D8E830 /* BRSucursales.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F699B420F33FA800D8E830 /* BRSucursales.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4F6997E20F33B7800D8E830 /* BRCustom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRCustom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F6998120F33B7800D8E830 /* BRCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCustom.h; sourceTree = "<group>"; };
 		F4F6998220F33B7800D8E830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F699AA20F33FA000D8E830 /* brUsers.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = brUsers.sqlite; sourceTree = "<group>"; };
+		F4F699AD20F33FA800D8E830 /* BRLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRLogin.h; sourceTree = "<group>"; };
+		F4F699AE20F33FA800D8E830 /* BRLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRLogin.m; sourceTree = "<group>"; };
+		F4F699B020F33FA800D8E830 /* BRRequestOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRRequestOperations.h; sourceTree = "<group>"; };
+		F4F699B120F33FA800D8E830 /* BRRequestOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRRequestOperations.m; sourceTree = "<group>"; };
+		F4F699B320F33FA800D8E830 /* BRSucursales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSucursales.h; sourceTree = "<group>"; };
+		F4F699B420F33FA800D8E830 /* BRSucursales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSucursales.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +74,49 @@
 		F4F6998020F33B7800D8E830 /* BRCustom */ = {
 			isa = PBXGroup;
 			children = (
+				F4F699AC20F33FA800D8E830 /* Login */,
+				F4F699AF20F33FA800D8E830 /* Operations */,
+				F4F699B220F33FA800D8E830 /* Sucursales */,
+				F4F699A920F33FA000D8E830 /* DataBase */,
 				F4F6998120F33B7800D8E830 /* BRCustom.h */,
 				F4F6998220F33B7800D8E830 /* Info.plist */,
 			);
 			path = BRCustom;
+			sourceTree = "<group>";
+		};
+		F4F699A920F33FA000D8E830 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				F4F699AA20F33FA000D8E830 /* brUsers.sqlite */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		F4F699AC20F33FA800D8E830 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F4F699AD20F33FA800D8E830 /* BRLogin.h */,
+				F4F699AE20F33FA800D8E830 /* BRLogin.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F4F699AF20F33FA800D8E830 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				F4F699B020F33FA800D8E830 /* BRRequestOperations.h */,
+				F4F699B120F33FA800D8E830 /* BRRequestOperations.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		F4F699B220F33FA800D8E830 /* Sucursales */ = {
+			isa = PBXGroup;
+			children = (
+				F4F699B320F33FA800D8E830 /* BRSucursales.h */,
+				F4F699B420F33FA800D8E830 /* BRSucursales.m */,
+			);
+			path = Sucursales;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +126,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F699B720F33FA800D8E830 /* BRRequestOperations.h in Headers */,
+				F4F699B520F33FA800D8E830 /* BRLogin.h in Headers */,
+				F4F699B920F33FA800D8E830 /* BRSucursales.h in Headers */,
 				F4F6998320F33B7800D8E830 /* BRCustom.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +167,11 @@
 						DevelopmentTeam = CJVHM222CX;
 						ProvisioningStyle = Automatic;
 					};
+					F4F6998920F33CE700D8E830 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CJVHM222CX;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = F4F6997820F33B7800D8E830 /* Build configuration list for PBXProject "BRCustom" */;
@@ -112,6 +187,7 @@
 			projectRoot = "";
 			targets = (
 				F4F6997D20F33B7800D8E830 /* BRCustom */,
+				F4F6998920F33CE700D8E830 /* BRCustom-Universal */,
 			);
 		};
 /* End PBXProject section */
@@ -121,16 +197,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F699AB20F33FA000D8E830 /* brUsers.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4807E4120F33DF600D43C7B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script is based on Jacob Van Order's answer on apple dev forums https://devforums.apple.com/message/971277\n# See also http://spin.atomicobject.com/2011/12/13/building-a-universal-framework-for-ios/ for the start\n\n\n# To get this to work with a Xcode 6 Cocoa Touch Framework, create Framework\n# Then create a new Aggregate Target. Throw this script into a Build Script Phrase on the Aggregate\n\n\n######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=true\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nFRAMEWORK_VERSION=\"${FRAMEWORK_VERSION}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n######################\n# Build Frameworks\n######################\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphonesimulator -target ${PROJECT_NAME} -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator | echo\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphoneos -target ${PROJECT_NAME} -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos | echo\n\n#xcodebuild -target ${PROJECT_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" | echo\n\n#xcodebuild -target ${PROJECT_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" | echo\n\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make fat universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n\n######################\n# On Release, copy the result to desktop folder\n######################\n\nif [ \"${CONFIGURATION}\" == \"Release\" ]; then\nmkdir \"${HOME}/Desktop/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal-${FRAMEWORK_VERSION}/\"\ncp -r \"${FRAMEWORK}\" \"${HOME}/Desktop/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal-${FRAMEWORK_VERSION}/\"\nfi\n\n\n######################\n# If needed, open the Framework folder\n######################\n\nif [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\nif [ \"${CONFIGURATION}\" == \"Release\" ]; then\nopen \"${HOME}/Desktop/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal-${FRAMEWORK_VERSION}/\"\nelse\nopen \"${UNIVERSAL_LIBRARY_DIR}/\"\nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4F6997920F33B7800D8E830 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F699B620F33FA800D8E830 /* BRLogin.m in Sources */,
+				F4F699B820F33FA800D8E830 /* BRRequestOperations.m in Sources */,
+				F4F699BA20F33FA800D8E830 /* BRSucursales.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +261,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/BRCustom",
+					"$(PROJECT_DIR)/Framewoks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -181,7 +281,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -217,6 +317,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/BRCustom",
+					"$(PROJECT_DIR)/Framewoks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -227,6 +331,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -238,7 +343,8 @@
 		F4F6998720F33B7800D8E830 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CJVHM222CX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -256,7 +362,8 @@
 		F4F6998820F33B7800D8E830 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CJVHM222CX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -268,6 +375,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikevillegas.BRCustom.BRCustom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F4F6998B20F33CE700D8E830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CJVHM222CX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4F6998C20F33CE700D8E830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CJVHM222CX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -290,6 +413,16 @@
 				F4F6998820F33B7800D8E830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F6998A20F33CE700D8E830 /* Build configuration list for PBXAggregateTarget "BRCustom-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F6998B20F33CE700D8E830 /* Debug */,
+				F4F6998C20F33CE700D8E830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
