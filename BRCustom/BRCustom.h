@@ -17,7 +17,15 @@ FOUNDATION_EXPORT const unsigned char BRCustomVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <BRCustom/PublicHeader.h>
 
 #import <BRCustom/BRLogin.h>
-#import <BRCustom/BRSucursales.h>
+#import <BRCustom/BRLoginOperations.h>
+#import <BRCustom/BRSucursal.h>
+#import <BRCustom/BRSucursalesOperations.h>
+#import <BRCustom/BRDataBaseManager.h>
+
+
+
+
+
 
 
 

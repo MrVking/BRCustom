@@ -21,17 +21,35 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		F45B734820F3D32400E55DA0 /* BRLoginOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = F45B734620F3D32400E55DA0 /* BRLoginOperations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45B734920F3D32400E55DA0 /* BRLoginOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = F45B734720F3D32400E55DA0 /* BRLoginOperations.m */; };
+		F45B734D20F3D37400E55DA0 /* BRUsuario.h in Headers */ = {isa = PBXBuildFile; fileRef = F45B734B20F3D37400E55DA0 /* BRUsuario.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45B734E20F3D37400E55DA0 /* BRUsuario.m in Sources */ = {isa = PBXBuildFile; fileRef = F45B734C20F3D37400E55DA0 /* BRUsuario.m */; };
+		F45B735220F3D45700E55DA0 /* BRDataBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F45B735020F3D45700E55DA0 /* BRDataBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45B735320F3D45700E55DA0 /* BRDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F45B735120F3D45700E55DA0 /* BRDataBaseManager.m */; };
+		F45B735820F3D52500E55DA0 /* BRSucursal.m in Sources */ = {isa = PBXBuildFile; fileRef = F45B735420F3D52500E55DA0 /* BRSucursal.m */; };
+		F45B735920F3D52500E55DA0 /* BRSucursalesOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = F45B735520F3D52500E55DA0 /* BRSucursalesOperations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45B735A20F3D52500E55DA0 /* BRSucursalesOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = F45B735620F3D52500E55DA0 /* BRSucursalesOperations.m */; };
+		F45B735B20F3D52500E55DA0 /* BRSucursal.h in Headers */ = {isa = PBXBuildFile; fileRef = F45B735720F3D52500E55DA0 /* BRSucursal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F6998320F33B7800D8E830 /* BRCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F6998120F33B7800D8E830 /* BRCustom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F699AB20F33FA000D8E830 /* brUsers.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F4F699AA20F33FA000D8E830 /* brUsers.sqlite */; };
-		F4F699B520F33FA800D8E830 /* BRLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F699AD20F33FA800D8E830 /* BRLogin.h */; };
+		F4F699B520F33FA800D8E830 /* BRLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F699AD20F33FA800D8E830 /* BRLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F699B620F33FA800D8E830 /* BRLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F699AE20F33FA800D8E830 /* BRLogin.m */; };
 		F4F699B720F33FA800D8E830 /* BRRequestOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F699B020F33FA800D8E830 /* BRRequestOperations.h */; };
 		F4F699B820F33FA800D8E830 /* BRRequestOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F699B120F33FA800D8E830 /* BRRequestOperations.m */; };
-		F4F699B920F33FA800D8E830 /* BRSucursales.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F699B320F33FA800D8E830 /* BRSucursales.h */; };
-		F4F699BA20F33FA800D8E830 /* BRSucursales.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F699B420F33FA800D8E830 /* BRSucursales.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F45B734620F3D32400E55DA0 /* BRLoginOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRLoginOperations.h; sourceTree = "<group>"; };
+		F45B734720F3D32400E55DA0 /* BRLoginOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRLoginOperations.m; sourceTree = "<group>"; };
+		F45B734B20F3D37400E55DA0 /* BRUsuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRUsuario.h; sourceTree = "<group>"; };
+		F45B734C20F3D37400E55DA0 /* BRUsuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRUsuario.m; sourceTree = "<group>"; };
+		F45B735020F3D45700E55DA0 /* BRDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDataBaseManager.h; sourceTree = "<group>"; };
+		F45B735120F3D45700E55DA0 /* BRDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDataBaseManager.m; sourceTree = "<group>"; };
+		F45B735420F3D52500E55DA0 /* BRSucursal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSucursal.m; sourceTree = "<group>"; };
+		F45B735520F3D52500E55DA0 /* BRSucursalesOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSucursalesOperations.h; sourceTree = "<group>"; };
+		F45B735620F3D52500E55DA0 /* BRSucursalesOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSucursalesOperations.m; sourceTree = "<group>"; };
+		F45B735720F3D52500E55DA0 /* BRSucursal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSucursal.h; sourceTree = "<group>"; };
 		F4F6997E20F33B7800D8E830 /* BRCustom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRCustom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F6998120F33B7800D8E830 /* BRCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCustom.h; sourceTree = "<group>"; };
 		F4F6998220F33B7800D8E830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,8 +58,6 @@
 		F4F699AE20F33FA800D8E830 /* BRLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRLogin.m; sourceTree = "<group>"; };
 		F4F699B020F33FA800D8E830 /* BRRequestOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRRequestOperations.h; sourceTree = "<group>"; };
 		F4F699B120F33FA800D8E830 /* BRRequestOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRRequestOperations.m; sourceTree = "<group>"; };
-		F4F699B320F33FA800D8E830 /* BRSucursales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSucursales.h; sourceTree = "<group>"; };
-		F4F699B420F33FA800D8E830 /* BRSucursales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSucursales.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +71,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F45B734A20F3D37400E55DA0 /* Usuarios */ = {
+			isa = PBXGroup;
+			children = (
+				F45B734B20F3D37400E55DA0 /* BRUsuario.h */,
+				F45B734C20F3D37400E55DA0 /* BRUsuario.m */,
+			);
+			path = Usuarios;
+			sourceTree = "<group>";
+		};
+		F45B734F20F3D45700E55DA0 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				F45B735020F3D45700E55DA0 /* BRDataBaseManager.h */,
+				F45B735120F3D45700E55DA0 /* BRDataBaseManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
 		F4F6997420F33B7800D8E830 = {
 			isa = PBXGroup;
 			children = (
+				F4F699AA20F33FA000D8E830 /* brUsers.sqlite */,
 				F4F6998020F33B7800D8E830 /* BRCustom */,
 				F4F6997F20F33B7800D8E830 /* Products */,
 			);
@@ -74,27 +109,22 @@
 		F4F6998020F33B7800D8E830 /* BRCustom */ = {
 			isa = PBXGroup;
 			children = (
+				F45B734F20F3D45700E55DA0 /* DataManager */,
+				F45B734A20F3D37400E55DA0 /* Usuarios */,
 				F4F699AC20F33FA800D8E830 /* Login */,
 				F4F699AF20F33FA800D8E830 /* Operations */,
 				F4F699B220F33FA800D8E830 /* Sucursales */,
-				F4F699A920F33FA000D8E830 /* DataBase */,
 				F4F6998120F33B7800D8E830 /* BRCustom.h */,
 				F4F6998220F33B7800D8E830 /* Info.plist */,
 			);
 			path = BRCustom;
 			sourceTree = "<group>";
 		};
-		F4F699A920F33FA000D8E830 /* DataBase */ = {
-			isa = PBXGroup;
-			children = (
-				F4F699AA20F33FA000D8E830 /* brUsers.sqlite */,
-			);
-			path = DataBase;
-			sourceTree = "<group>";
-		};
 		F4F699AC20F33FA800D8E830 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				F45B734620F3D32400E55DA0 /* BRLoginOperations.h */,
+				F45B734720F3D32400E55DA0 /* BRLoginOperations.m */,
 				F4F699AD20F33FA800D8E830 /* BRLogin.h */,
 				F4F699AE20F33FA800D8E830 /* BRLogin.m */,
 			);
@@ -113,8 +143,10 @@
 		F4F699B220F33FA800D8E830 /* Sucursales */ = {
 			isa = PBXGroup;
 			children = (
-				F4F699B320F33FA800D8E830 /* BRSucursales.h */,
-				F4F699B420F33FA800D8E830 /* BRSucursales.m */,
+				F45B735720F3D52500E55DA0 /* BRSucursal.h */,
+				F45B735420F3D52500E55DA0 /* BRSucursal.m */,
+				F45B735520F3D52500E55DA0 /* BRSucursalesOperations.h */,
+				F45B735620F3D52500E55DA0 /* BRSucursalesOperations.m */,
 			);
 			path = Sucursales;
 			sourceTree = "<group>";
@@ -126,9 +158,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F699B720F33FA800D8E830 /* BRRequestOperations.h in Headers */,
 				F4F699B520F33FA800D8E830 /* BRLogin.h in Headers */,
-				F4F699B920F33FA800D8E830 /* BRSucursales.h in Headers */,
+				F45B734D20F3D37400E55DA0 /* BRUsuario.h in Headers */,
+				F45B735B20F3D52500E55DA0 /* BRSucursal.h in Headers */,
+				F45B735920F3D52500E55DA0 /* BRSucursalesOperations.h in Headers */,
+				F45B734820F3D32400E55DA0 /* BRLoginOperations.h in Headers */,
+				F45B735220F3D45700E55DA0 /* BRDataBaseManager.h in Headers */,
+				F4F699B720F33FA800D8E830 /* BRRequestOperations.h in Headers */,
 				F4F6998320F33B7800D8E830 /* BRCustom.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,7 +196,7 @@
 		F4F6997520F33B7800D8E830 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				TargetAttributes = {
 					F4F6997D20F33B7800D8E830 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -226,7 +262,11 @@
 			files = (
 				F4F699B620F33FA800D8E830 /* BRLogin.m in Sources */,
 				F4F699B820F33FA800D8E830 /* BRRequestOperations.m in Sources */,
-				F4F699BA20F33FA800D8E830 /* BRSucursales.m in Sources */,
+				F45B735820F3D52500E55DA0 /* BRSucursal.m in Sources */,
+				F45B735320F3D45700E55DA0 /* BRDataBaseManager.m in Sources */,
+				F45B735A20F3D52500E55DA0 /* BRSucursalesOperations.m in Sources */,
+				F45B734E20F3D37400E55DA0 /* BRUsuario.m in Sources */,
+				F45B734920F3D32400E55DA0 /* BRLoginOperations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,15 +283,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -281,7 +329,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -299,15 +347,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -344,7 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CJVHM222CX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -363,7 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CJVHM222CX;
 				DYLIB_COMPATIBILITY_VERSION = 1;

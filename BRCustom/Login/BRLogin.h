@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface BRLogin : NSObject
-    -(void)getLoginDataWithCompletionHandler:(void (^)(NSDictionary *result, NSError *error, BOOL wasCancelled))completion;
+
 @end
